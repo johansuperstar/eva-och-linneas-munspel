@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    margin: 1rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 640px;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+}
+
+.lesson {
+    margin-bottom: 2rem;
+    
+}
+
+.lesson h3 {
+    margin-bottom: 0.5rem;
+}
+
+.lesson__video {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 0.5rem;
+}
+
+.lesson iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: none;
+}
