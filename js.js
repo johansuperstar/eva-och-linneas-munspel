@@ -6,7 +6,8 @@ var lessons = [
     { name: 'Lär dig grunderna', youtubeId: '_CxMYWcCluw' },
     { name: 'Hur läser man noterna?', youtubeId: 'uijKdpEoVZM' },
     { name: 'Tips och tricks', youtubeId: 'Qld7XBdsRyU' },
-    { name: 'Första låten - Oh Susanna', youtubeId: '4hnz9O-0uQ8' },
+    { name: 'Första låten - Oh Susanna', youtubeId: '4hnz9O-0uQ8' },    
+    { name: 'Andra låten - When the Saints Go Marching In', youtubeId: 'HBB2ijN4p3g' },
     { name: 'Examensprov - Blowin\' in the wind', youtubeId: 'mMbyL7ObxcU' },
 ].map(function (x, index) {
     return {
