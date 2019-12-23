@@ -42,10 +42,14 @@ var setLocalStorageState = function (state) {
 var localStorageState = getLocalStorageState();
 var state = merge(lessons, localStorageState);
 
+if (!Element.prototype.matches) {
+    Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
+}
+
 var on = function (event, parent, childSelector, handler) {
     parent.addEventListener(event, function (e) {
         if (!e.target) return;
-
+        
         if (e.target.matches(childSelector)) {
             handler(e.target);
         }
